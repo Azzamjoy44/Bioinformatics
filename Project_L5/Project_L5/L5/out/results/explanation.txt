@@ -1,0 +1,44 @@
+Differences Between Point Positions
+==================================
+
+Number of genomes analyzed: 10
+GC% range: 35.92% – 55.12%
+Assembly time range: 12.8 ms – 55.0 ms
+Pearson correlation (GC% vs time): -0.857
+Pearson correlation (genome length vs time): 0.992
+
+Notable Points
+--------------
+- Fastest (lowest Y): V09 — time 12.8 ms, GC 50.06%, length 1680 bp.
+- Slowest (highest Y): V04 — time 55.0 ms, GC 35.92%, length 5852 bp.
+- Lowest GC (leftmost X): V04 — GC 35.92%, time 55.0 ms.
+- Highest GC (rightmost X): V02 — GC 55.12%, time 21.6 ms.
+
+Interpretation
+-------------
+Horizontal position (X) reflects overall GC%. Vertical position (Y) reflects the measured
+time for our toy de Bruijn assembly. In this toy model, assembly time generally scales
+with the number of k-mers, which is influenced by genome length, read count (coverage),
+and sequence repetitiveness. GC% per se does not directly cause longer times, but GC-rich
+or GC-poor sequences can alter k-mer diversity and repeat structure, indirectly affecting
+graph complexity.
+
+When points with similar GC% differ in Y, length and graph complexity likely differ—e.g.,
+longer or more repetitive genomes produce more nodes/edges and thus take longer in our
+greedy walk. Conversely, points with similar Y but different GC% suggest GC% alone is not
+the main driver here.
+
+Table
+-----
+Label  GC%    Time(ms)  GenomeLen  Nreads  ~N50  #Contigs  Accession/Header
+-----  -----  --------  ---------  ------  ----  -------  -----------------
+V01   48.58   20.1         2610     348  2577        5  NC_116671.1 Porprismacovirus canid3 strain CJY7, complete genome
+V02   55.12   21.6         2560     341  2362        7  NC_116669.1 Porprismacovirus canid9 strain CJY5, complete genome
+V03   51.93   20.3         2565     342  2524        5  NC_116668.1 Porprismacovirus canid8 strain CJY4, complete genome
+V04   35.92   55.0         5852     780  5776        9  NC_117020.1 Sika deer copiparvovirus SDCopiPV-MZ12-1435 DNA, complete genome
+V05   36.58   38.4         4380     584  4240        7  NC_117303.1 Porcine parvovirus 8 isolate GDJM2021, complete genome
+V06   49.39   16.1         1960     261  1877        6  NC_117060.1 Circovirus gyurgyalag strain Bee-eaterCV1, complete genome
+V07   48.94   15.3         1935     258  1863        7  NC_117061.1 Little bittern circovirus strain BitternCV1, complete genome
+V08   47.81   20.4         2079     277  2021        8  NC_135461.1 Banfec circovirus 2 isolate N06_S02a, complete genome
+V09   50.06   12.8         1680     224  1607        6  NC_135460.1 Banfec circovirus 1 isolate N10_S01a, complete genome
+V10   47.40   21.3         2734     365  2697        5  NC_129518.1 Porprismacovirus bovas3 isolate C025899, complete genome

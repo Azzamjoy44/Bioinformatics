@@ -1,0 +1,102 @@
+[
+  {
+    "index": 1,
+    "ncbi_header": "NC_116671.1 Porprismacovirus canid3 strain CJY7, complete genome",
+    "genome_len": 2610,
+    "gc_percent": 48.582375478927204,
+    "assembly_time_ms": 20.099526999729278,
+    "n50_approx": 2577,
+    "n_contigs": 5,
+    "n_reads": 348
+  },
+  {
+    "index": 2,
+    "ncbi_header": "NC_116669.1 Porprismacovirus canid9 strain CJY5, complete genome",
+    "genome_len": 2560,
+    "gc_percent": 55.1171875,
+    "assembly_time_ms": 21.559337999860873,
+    "n50_approx": 2362,
+    "n_contigs": 7,
+    "n_reads": 341
+  },
+  {
+    "index": 3,
+    "ncbi_header": "NC_116668.1 Porprismacovirus canid8 strain CJY4, complete genome",
+    "genome_len": 2565,
+    "gc_percent": 51.92982456140351,
+    "assembly_time_ms": 20.31441500002984,
+    "n50_approx": 2524,
+    "n_contigs": 5,
+    "n_reads": 342
+  },
+  {
+    "index": 4,
+    "ncbi_header": "NC_117020.1 Sika deer copiparvovirus SDCopiPV-MZ12-1435 DNA, complete genome",
+    "genome_len": 5852,
+    "gc_percent": 35.919343814080655,
+    "assembly_time_ms": 54.951447999883385,
+    "n50_approx": 5776,
+    "n_contigs": 9,
+    "n_reads": 780
+  },
+  {
+    "index": 5,
+    "ncbi_header": "NC_117303.1 Porcine parvovirus 8 isolate GDJM2021, complete genome",
+    "genome_len": 4380,
+    "gc_percent": 36.57534246575342,
+    "assembly_time_ms": 38.4440750003705,
+    "n50_approx": 4240,
+    "n_contigs": 7,
+    "n_reads": 584
+  },
+  {
+    "index": 6,
+    "ncbi_header": "NC_117060.1 Circovirus gyurgyalag strain Bee-eaterCV1, complete genome",
+    "genome_len": 1960,
+    "gc_percent": 49.38775510204081,
+    "assembly_time_ms": 16.135290999955032,
+    "n50_approx": 1877,
+    "n_contigs": 6,
+    "n_reads": 261
+  },
+  {
+    "index": 7,
+    "ncbi_header": "NC_117061.1 Little bittern circovirus strain BitternCV1, complete genome",
+    "genome_len": 1935,
+    "gc_percent": 48.940568475452196,
+    "assembly_time_ms": 15.32119000057719,
+    "n50_approx": 1863,
+    "n_contigs": 7,
+    "n_reads": 258
+  },
+  {
+    "index": 8,
+    "ncbi_header": "NC_135461.1 Banfec circovirus 2 isolate N06_S02a, complete genome",
+    "genome_len": 2079,
+    "gc_percent": 47.81144781144781,
+    "assembly_time_ms": 20.356365000225196,
+    "n50_approx": 2021,
+    "n_contigs": 8,
+    "n_reads": 277
+  },
+  {
+    "index": 9,
+    "ncbi_header": "NC_135460.1 Banfec circovirus 1 isolate N10_S01a, complete genome",
+    "genome_len": 1680,
+    "gc_percent": 50.05952380952381,
+    "assembly_time_ms": 12.797397999747773,
+    "n50_approx": 1607,
+    "n_contigs": 6,
+    "n_reads": 224
+  },
+  {
+    "index": 10,
+    "ncbi_header": "NC_129518.1 Porprismacovirus bovas3 isolate C025899, complete genome",
+    "genome_len": 2734,
+    "gc_percent": 47.40307242136064,
+    "assembly_time_ms": 21.322527999473095,
+    "n50_approx": 2697,
+    "n_contigs": 5,
+    "n_reads": 365
+  }
+]
